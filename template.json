@@ -1,6 +1,6 @@
 {
     "variables": {
-        "cloud_token": "XXX",
+        "cloud_token": ""{{env `VAGRANT_CLOUD_TOKEN`}}",
         "cloud_repo": "frickelbruder/clean-ubuntu-14.04"
         "version": "XXX"
     } ,
